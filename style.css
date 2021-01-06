@@ -11,6 +11,7 @@ body{
 }
 .highlighter-2{
     color: #FF8367;
+    margin-left: 45px;
 }
 .half-width{
     width: 40%;
@@ -60,7 +61,7 @@ h3{
 }
 h4{
     color: #363958;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -71,10 +72,75 @@ h4{
     float: left;
 }
 .single-block{
-    box-shadow: 2px 2px 20px gray;
+    box-shadow: 1px 1px 10px lightgray;
     border-radius: 20px;
     height: 55%;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 3%;
+}
+.half-width-bottom{
+    width: 20%;
+    float: left;
+    position: absolute;
+    width: 906px;
+    height: 225px;
+    left: 230px;
+    top: 2100px;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+}
+.work{
+    position: absolute;
+    left: 90px;
+    top: 85px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+}
+.lets-chat-button{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    left: 650px;
+    top: 40%;
+    font-size: 20px;
+    padding-bottom: 3.5%;
+}
+.stay-connected{
+    position: absolute;
+    left: 635px;
+    top: 2420px;
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+.mail{
+    position: absolute;
+    left: 540px;
+    top: 2450px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
+    color: #363958;
+}
+.block-center{
+    margin-left: 15%;
+}
+.icon-half-width{
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 2%;
+}
+.icon-center{
+    margin-left: 43%;
 }
