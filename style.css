@@ -1,57 +1,80 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 80px;
+    margin: 0;
+}
+.highlighter-1{
+    color: #363958;
+}
+.highlighter-2{
+    color: #FF8367;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 img{
     width: 100%;
 }
-.half-width{
-   width: 40%;
-   margin-left: 5%;
-   padding-right: 2%;
-   font-size: 14px;
-   float: left;
-   margin-bottom: 100px;
-}
-.title-top{
-    font-size: 16px;
-    color: coral;
-    font-weight: 400;
-}
-h2{
-    color: seagreen;
-    font-size: 40px;
-}
 section{
-    height: 650px;
+    height: 600px;
 }
-#intro-block{
-    padding-top: 80px;
-    margin-top: 50px;
-}
-.company-name{
-    color: navy;
-    font-size: 22px;
-    font-weight: 800;
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
 }
 .link-button{
     text-decoration: none;
-    font-size: 18px;
-    width: 160px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato, salmon);
+    padding: 10px 40px;
+    border-radius: 5px;
     color: white;
-    background-image: linear-gradient(360deg, lightsalmon, tomato, lightsalmon);
-    cursor: pointer;
-    padding: 10px, 20px;
-    font-weight: 700px;
-    border-radius: 3px;
+    font-weight: normal;
+    font-size: 24px;
 }
-h1{
+h2{
     text-align: center;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
 }
-.half-width-img{
-    width: 20%;
-    margin-left: 5%;
-    padding-right: 2%;
-    font-size: 14px;
+h3{
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+}
+#background-banner{
+    background-image: url("images/background-banner.png");
+    background-repeat: no-repeat;
+}
+h4{
+    color: #363958;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+}
+.half-width-third-sec{
+    width: 23%;
     float: left;
-    margin-bottom: 100px;
- }
+}
+.single-block{
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 20px;
+    height: 55%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
