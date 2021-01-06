@@ -24,6 +24,7 @@ img{
 }
 section{
     height: 600px;
+    padding-top: 20px;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -56,8 +57,9 @@ h3{
     color: #363958;
 }
 #background-banner{
-    background-image: url("images/background-banner.png");
+    background-image: url("images/E5E5E5.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 h4{
     color: #363958;
@@ -70,6 +72,7 @@ h4{
 .half-width-third-sec{
     width: 23%;
     float: left;
+    background-color: white;
 }
 .single-block{
     box-shadow: 1px 1px 10px lightgray;
@@ -143,4 +146,22 @@ h4{
 }
 .icon-center{
     margin-left: 43%;
+}
+form{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+}
+.form{
+    padding-top: 40%;
+    margin-left: 20%;
+}
+.form-link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato, salmon);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
 }
